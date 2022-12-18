@@ -29,3 +29,28 @@
 	color:rgb(0,0,0);
 	font-size:20px;
 }
+
+.grid-container{
+   display: grid;
+}
+
+.menu{
+   grid-template-columns: auto auto auto auto;
+   display: grid;
+}
+
+.hidden{
+   display: none;
+}
+
+.menu > div{
+
+}
+
+.grid-menu{
+
+}
+
+.content{
+   width: 70%;
+}
