@@ -15,9 +15,7 @@ const expandMenuButton = document.getElementById("expandMenu");
         `;
         })
         .join(``);
-
 })();
-
 
 expandMenuButton.addEventListener("click", () => {
     const menuElements = document.getElementsByClassName("siteMenu-el");
