@@ -1,0 +1,27 @@
+#style{
+	background: rgba(0,0,0,0.7);
+    border-radius: 5em;
+    padding: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -40%;
+    transform: translate(-50%, -50%);
+}
+#foto{
+	position:absolute;
+	bottom: 0;
+	right: 0;
+}
+p{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 15px;
+	word-spacing: 1px;
+	color: rgb(255,255,255);
+}
+body{
+	background: no-repeat;
+	background-image: url("../img/3.jpg");
+	background-color: rgb(255,255,255);
+	background-size: cover;
+}
