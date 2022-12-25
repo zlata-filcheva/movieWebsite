@@ -32,7 +32,7 @@
 
 .grid-container{
    display: grid;
-   grid-template-columns: auto auto auto;
+   grid-template-columns: max-content auto max-content;
 }
 
 .menu{
@@ -59,4 +59,9 @@
 
 .full-width {
    grid-column: 1 / -1;
+}
+
+.ad-image {
+   width: 15rem;
+   height: 17rem;
 }
