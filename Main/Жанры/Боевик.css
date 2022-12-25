@@ -20,8 +20,6 @@ p{
 	color: rgb(255,255,255);
 }
 body{
-	background: no-repeat;
-	background-image: url("../img/3.jpg");
-	background-color: rgb(255,255,255);
+	background: rgb(255, 255, 255) url("../../images/3.jpg") no-repeat;
 	background-size: cover;
 }
