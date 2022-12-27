@@ -1,14 +1,28 @@
-#style{
-	background: rgba(0,0,0,0.7);
-    border-radius: 5em;
-    padding: 3em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -40%;
-    transform: translate(-50%, -50%);
+body {
+	background: rgb(255, 255, 255) url(../../images/3.jpg) no-repeat fixed;
+	background-size: cover;
 }
-#foto{
+
+.grid-container {
+	display: grid;
+}
+
+.grid-container-text {
+	background: rgba(0,0,0,0.7);
+	border-radius: 5rem;
+	padding: 3rem;
+	margin: 8rem 3rem auto 3rem;
+	box-shadow: 1rem 0.8rem 0.9rem 0.5rem;
+}
+
+.grid-container-text > p {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 15px;
+	word-spacing: 1px;
+	color: rgb(255,255,255);
+}
+
+#foto {
 	position:absolute;
 	bottom: 0;
 	right: 0;
@@ -17,19 +31,4 @@
 #foto img {
 	width: 100px;
 	height: 100px;
-}
-
-p{
-	font-family: Comic Sans MS, Comic Sans, cursive;
-	font-size: 15px;
-	word-spacing: 1px;
-	color: rgb(255,255,255);
-}
-
-body{
-	background: rgb(255, 255, 255) url(../../images/3.jpg) cover no-repeat fixed;
-}
-
-.grid-container {
-	display: grid;
 }
