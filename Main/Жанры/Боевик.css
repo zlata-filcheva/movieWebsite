@@ -25,7 +25,11 @@ p{
 	word-spacing: 1px;
 	color: rgb(255,255,255);
 }
+
 body{
-	background: rgb(255, 255, 255) url("../../images/3.jpg") no-repeat;
-	background-size: cover;
+	background: rgb(255, 255, 255) url(../../images/3.jpg) cover no-repeat fixed;
+}
+
+.grid-container {
+	display: grid;
 }
