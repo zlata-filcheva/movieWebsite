@@ -1,5 +1,9 @@
+:root {
+	--background-image-url: url("../../images/3.jpg");
+}
+
 body {
-	background: rgb(255, 255, 255) url(../../images/3.jpg) no-repeat fixed;
+	background: rgb(255, 255, 255) var(--background-image-url) no-repeat fixed;
 	background-size: cover;
 }
 
