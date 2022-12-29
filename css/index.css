@@ -54,7 +54,6 @@
 
 body {
    max-width: 100vw;
-
    background: rgb(255, 255, 255) url("../images/killbill2.jpeg") no-repeat fixed;
    background-size: cover;
 }
