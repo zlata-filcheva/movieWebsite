@@ -41,3 +41,16 @@ body {
 .grid-container-image-layer img:hover {
 	content: url("../../images/Logo2.jpg");
 }
+
+.site-menu {
+	border: 0.2rem solid whitesmoke;
+}
+
+.site-menu > div {
+	margin-bottom: 0.8rem;
+}
+
+.site-menu a {
+	text-decoration: underline;
+	color: ghostwhite;
+}
