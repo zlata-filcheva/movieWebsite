@@ -10,7 +10,7 @@ const expandMenuButton = document.getElementById("expandMenu");
         .map(({link, name}, index) => {
             return `
             <div class='${index > 3 ? "hidden siteMenu-el" : "siteMenu-el"}'> 
-                <a href=".././Main/Жанры/${link}">${name}</a>
+                <a href=".././main/genres/${link}">${name}</a>
             </div>
         `;
         })
