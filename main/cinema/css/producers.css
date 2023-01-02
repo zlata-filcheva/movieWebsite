@@ -1,0 +1,39 @@
+#text{
+	background: rgba(0,0,0,0.7);
+	border-radius: 5rem;
+	padding: 3rem;
+	box-shadow: 1rem 0.8rem 0.9rem 0.5rem;
+	position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -40%;
+    transform: translate(-50%, -50%);
+}
+p {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 13px;
+	word-spacing: 1px;
+	text-align: center;
+	color: rgb(255,255,255);
+}
+#text1{
+	background: rgba(0,0,0,0.7);
+	border-radius: 3em;
+	padding: 1em;
+	box-shadow: 0.5rem 0.4rem 0.45rem 0.25rem;
+	position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -40%;
+    transform: translate(-50%, -50%);
+}
+A {
+	text-decoration: none;
+}
+body{
+	background: no-repeat;
+	background-image: url("../../../main/images/6.jpg");
+	background-color: rgb(255,255,255);
+	background-size: cover;
+	height: 46.6em;
+}

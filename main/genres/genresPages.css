@@ -1,0 +1,61 @@
+:root {
+	--background-image-url: url("../../images/3.jpg");
+}
+
+body {
+	background: rgb(255, 255, 255) var(--background-image-url) no-repeat fixed;
+	background-size: cover;
+}
+
+.grid-container {
+	display: grid;
+	position: relative;
+}
+
+.grid-container-text-layer {
+	background: rgba(0,0,0,0.7);
+	border-radius: 5rem;
+	padding: 3rem;
+	margin: 8rem 3rem 10rem 3rem;
+	box-shadow: 1rem 0.8rem 0.9rem 0.5rem;
+}
+
+.grid-container-text-layer > p {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 15px;
+	word-spacing: 1px;
+	color: rgb(255,255,255);
+}
+
+.grid-container-image-layer {
+	position:absolute;
+	bottom: -69px;
+	right: 0;
+}
+
+.grid-container-image-layer img {
+	width: 100px;
+	height: 100px;
+}
+
+.grid-container-image-layer img:hover {
+	content: url("../../images/Logo2.jpg");
+}
+
+.site-menu {
+	border: 0.2rem solid whitesmoke;
+}
+
+.site-menu > div {
+	margin-bottom: 0.8rem;
+}
+
+.site-menu a {
+	text-decoration: underline;
+	color: ghostwhite;
+}
+
+.back-button {
+	padding: 50px;
+	background-color: white;
+}
