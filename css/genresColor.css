@@ -70,3 +70,16 @@ A {
 A:active {
     color: rgb(30, 115, 218);
 }
+
+.back-button {
+    background: url("../images/strelka2.png") 50% 50% no-repeat;
+    background-size: contain;
+    width: 5em;
+    height: 5em;
+    color: rgb(255, 255, 255);
+    border: none;
+    position: absolute;
+    bottom: 47% ;
+    border-radius: 50%;
+    background-color: white;
+}
